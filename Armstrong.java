@@ -3,7 +3,7 @@ class Armstrong
  {
   public static void main(String args[])  
   {
-   Scanner scanner = new Scanner(System.in);
+   Scanner scannerrr = new Scanner(System.in);
    int n = scanner.nextInt();          
    int s = 0, t = n; 
         while (t > 0)
