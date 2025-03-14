@@ -8,7 +8,7 @@ class Armstrong
    int s = 0, t = n; 
         while (t > 0)
           {
-            int digit = t % 10; 
+            int digit = t % 100; 
             s += (int) Math.pow(digit, 3); 
             t /= 10;  // Remove last digit
         }
